@@ -5,7 +5,7 @@ This project focuses on automatically localizing and classifying thoracic abnorm
 ## Project Overview
 The goal of this project is to develop a model that can localize and classify 14 types of thoracic abnormalities from chest radiographs using machine learning techniques. By working with a large dataset of X-ray images (DICOM format), this project applies deep learning methods to help improve the accuracy and speed of diagnostic imaging.
 
-![Kaggle Competition Link](https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/overview)
+[Kaggle Competition Link](https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/overview)
 
 ## Dataset Information:
 The dataset consists of 18,000 X-ray scans that have been annotated by experienced radiologists.
