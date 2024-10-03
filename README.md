@@ -7,18 +7,18 @@ The goal of this project is to develop a model that can localize and classify 14
 
 [Kaggle Competition Link](https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/overview)
 
-## Dataset Information:
+Dataset Information:
 The dataset consists of 18,000 X-ray scans that have been annotated by experienced radiologists.
 The model is trained, validated, and tested on 15,000 independently labeled images.
 The dataset includes 14 categories of thoracic abnormalities.
 File Format:
 The X-ray images are stored in the DICOM format, which is a standard format for storing medical images.
-Methodology
+## Methodology
 Data Preprocessing:
 
 Convert DICOM images to PNG for improved processing efficiency.
 Prepare the YOLOv5 model with proper annotations in .txt format to match the YOLO format.
-## Model:
+## Model
 
 The project uses the YOLOv5 architecture, which is known for its speed and accuracy in real-time object detection. YOLOv5 divides the input image into a grid and predicts bounding boxes along with their class probabilities.
 The YOLOv5x and YOLOv5s model variants are trained and evaluated with varying parameters such as batch size and the number of epochs.
