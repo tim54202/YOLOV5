@@ -35,6 +35,8 @@ Model results are further analyzed using confusion matrices and loss curves.
 YOLOv5x Model (Batch size: 16, Epochs: 30) achieved an mAP of 39.2% and Precision of 52%.
 YOLOv5x Model (Batch size: 16, Epochs: 40) achieved an improved mAP of 49.2% and Precision of 66.3%.
 YOLOv5s Model (Batch size: 16, Epochs: 30) achieved lower performance with an mAP of 26% and Precision of 54.9%.
+
+![YOLOv5x Model (Batch size: 16, Epochs: 40)](Images/YOLOv5x_Model.png)
 ## Future Work
 Explore hyperparameter tuning to improve model accuracy.
 Use a more diverse dataset to balance class representation.
